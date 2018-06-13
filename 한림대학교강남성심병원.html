@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_a9f8bc7226484ac28dd40614a065af22 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a9f8bc7226484ac28dd40614a065af22" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_a9f8bc7226484ac28dd40614a065af22 = L.map(
+                                  'map_a9f8bc7226484ac28dd40614a065af22',
+                                  {center: [37.4932492859,126.9086725295],
+                                  zoom: 17,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_52af065a15a842b4a16e139952c18d2d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_a9f8bc7226484ac28dd40614a065af22);
+        
+    
+
+            var marker_549fbdf212ed48a6bf2dd10f39b87a62 = L.marker(
+                [37.4932492859,126.9086725295],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_a9f8bc7226484ac28dd40614a065af22);
+            
+    
+
+                var icon_79feb425ca3f421fb60ffb8e079f240d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_549fbdf212ed48a6bf2dd10f39b87a62.setIcon(icon_79feb425ca3f421fb60ffb8e079f240d);
+            
+    
+            var popup_549366cfb7284466b98fa0b1f7b50b84 = L.popup({maxWidth: '300'});
+
+            
+                var html_02787518b463489db550e5c61456abff = $('<div id="html_02787518b463489db550e5c61456abff" style="width: 100.0%; height: 100.0%;">한림대학교강남성심병원</div>')[0];
+                popup_549366cfb7284466b98fa0b1f7b50b84.setContent(html_02787518b463489db550e5c61456abff);
+            
+
+            marker_549fbdf212ed48a6bf2dd10f39b87a62.bindPopup(popup_549366cfb7284466b98fa0b1f7b50b84);
+
+            
+        
+    
+
+            var marker_277004c5a9284da5a38d42cc3e0ad9c8 = L.marker(
+                [37.561,126.995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_a9f8bc7226484ac28dd40614a065af22);
+            
+    
+
+                var icon_e4a227399e0e428db93c83c174daf6d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_277004c5a9284da5a38d42cc3e0ad9c8.setIcon(icon_e4a227399e0e428db93c83c174daf6d0);
+            
+    
+            var popup_769d9bd2df63451f8a58e5b94a6d5cf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_669eca15cd624f8598ff507284fdf007 = $('<div id="html_669eca15cd624f8598ff507284fdf007" style="width: 100.0%; height: 100.0%;">현재 내 위치</div>')[0];
+                popup_769d9bd2df63451f8a58e5b94a6d5cf1.setContent(html_669eca15cd624f8598ff507284fdf007);
+            
+
+            marker_277004c5a9284da5a38d42cc3e0ad9c8.bindPopup(popup_769d9bd2df63451f8a58e5b94a6d5cf1);
+
+            
+        
+</script>

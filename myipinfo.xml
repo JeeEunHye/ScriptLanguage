@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+	<status><![CDATA[success]]></status>
+	<country><![CDATA[Republic of Korea]]></country>
+	<countryCode><![CDATA[KR]]></countryCode>
+	<region><![CDATA[]]></region>
+	<regionName><![CDATA[Seoul]]></regionName>
+	<city><![CDATA[Seoul (Toegye-ro)]]></city>
+	<zip><![CDATA[]]></zip>
+	<lat><![CDATA[37.561]]></lat>
+	<lon><![CDATA[126.995]]></lon>
+	<timezone><![CDATA[Asia/Seoul]]></timezone>
+	<isp><![CDATA[SK Broadband]]></isp>
+	<org><![CDATA[SK Broadband]]></org>
+	<as><![CDATA[AS9318 SK Broadband Co Ltd]]></as>
+	<query><![CDATA[114.204.75.60]]></query>
+</query>
